@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import StateContextProvider from "@/context/StateContext";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -13,22 +14,24 @@ const geistMono = localFont({
   weight: "100 900",
 });
 
+
+
+export interface LayoutProps {
+  children: React.ReactNode;
+  types: React.ReactNode;
+} 
 export const metadata: Metadata = {
   title: "E-Scooter",
   description: "Let's Ride the Future",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children, types }: LayoutProps) {
   return (
     <html lang="en">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <StateContextProvider>{children}</StateContextProvider>
       </body>
     </html>
   );

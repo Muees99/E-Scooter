@@ -30,10 +30,10 @@ const Navbar = () => {
   }, [searchParams]);
 
   return (
-    <header className="w-full ">
+    // <header className="w-full ">
       <nav
         className={cn(
-          "max-[500px]:py-2 shadow-lg font-montserrat sm:px-[5%] px-[4%] h-[12vh] flex shadow-slate-800/20 justify-between items-center transition-colors duration-500 max-w-[1440px] mx-auto",
+          "max-[500px]:py-2 shadow-lg sm:px-[5%] px-[4%] h-[12vh] flex shadow-slate-800/20 justify-between items-center transition-colors duration-500 max-w-[1440px] mx-auto",
           scrollHeight > 200
             ? "fixed backdrop-blur-xl top-0 left-0 z-50 -translate-y-28 opacity-0 animate-slideDown bg-white-100 py-3 border-b border-gray-200 shadow-md"
             : "md:py-3 py-3",
@@ -122,7 +122,7 @@ const Navbar = () => {
         </div>
         <MobileNav />
       </nav>
-    </header>
+    // </header>
   );
 };
 

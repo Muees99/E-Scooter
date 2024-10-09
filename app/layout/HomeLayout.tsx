@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from 'react'
 import { BiLoaderCircle } from 'react-icons/bi';
 import Navbar from '@/components/Navs/Navbar';
+import Footer from '@/components/Footer';
 
 
 export default function HomeLayout({
@@ -29,6 +30,7 @@ export default function HomeLayout({
   return (
     <>
     <Navbar/>
+    <Footer/>
     </>
   )
 }

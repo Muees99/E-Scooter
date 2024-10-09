@@ -1,17 +1,14 @@
 import { NavLinkProps, FooterLinkProps } from "../@types";
 
 export const NAVLINKS: NavLinkProps[] = [
-    { id: 1, link: "home", label: "Home" },
-    { id: 2, link: "products", label: "Products" },
-    { id: 3, link: "showroom", label: "Showroom" },
-    { id: 4, link: "about-us", label: "About us" },
-    // { id: 5, link: "services", label: "Services" },
-//   { id: 6, link: "contact-us", label: "Contact Us" },
-  // { id: 5, link: "cart", label: "cart" },
+  { id: 1, link: "home", label: "Home" },
+  { id: 2, link: "products", label: "Products" },
+  { id: 3, link: "showroom", label: "Showroom" },
+  { id: 4, link: "about-us", label: "About us" },
 ];
 
 export const FOOTER_LINKS: FooterLinkProps = {
-  Customercare: [
+  QuickLinks: [
     {
       id: 1,
       link: "mailto:mueesalabi294@gmail.com",
@@ -19,27 +16,24 @@ export const FOOTER_LINKS: FooterLinkProps = {
     },
     {
       id: 2,
-      link: "sms:muees99@icloud.com",
-      label: " muees99@icloud.com",
-    },
-    { id: 3, link: "tel:+2348101097866", label: "Terms & Conditions" },
-    { id: 4, link: "", label: "Meet the Team" },
-  ],
-  services: [
-    { id: 1, link: "", label: "Vetenary Clinic" },
-    { id: 2, link: "", label: "Training and Guidance" },
-    {
-      id: 3,
       link: "",
-      label: "Day Care",
+      label: " Careers",
     },
-    { id: 4, link: "", label: "Meal Plans" },
+    { id: 3, link: "tel:+2348101097866", label: "Meet the Team" },
   ],
-  accessories: [
-    { id: 1, link: "", label: "Pet Shop" },
-    { id: 2, link: "", label: "Cleaning Kits" },
-    { id: 3, link: "", label: "Wraps & Covers" },
-    { id: 4, link: "", label: "Redeem Coupons and Gift" },
+  resources: [
+    { id: 1, link: "", label: "FQA Features" },
+    {
+      id: 2,
+      link: "",
+      label: "Workshop",
+    },
+    { id: 3, link: "", label: "Orders & Tracking" },
+  ],
+  legals: [
+    { id: 1, link: "", label: "Copyright Privacy" },
+    { id: 2, link: "", label: " Policy Disclaimer  " },
+    { id: 3, link: "", label: "Terms & Conditions" },
   ],
   link: "",
   label: "",

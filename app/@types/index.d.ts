@@ -4,8 +4,9 @@ export type NavLinkProps = {
   label: string;
 };
 export type FooterLinkProps = {
-  [x: string]: any;
-  Customercare: any;
+  resources: any;
+  legals: any;
+  QuickLinks: any;
   id?: number;
   link: string;
   label: string;
@@ -15,13 +16,6 @@ export interface StateContextProps {
   showMobileMenu: boolean;
   setShowMobileMenu: React.Dispatch<React.SetStateAction<boolean>>;
 }
-
-export type FooterLinkProps = {
-  service: NavLinkProps[];
-  Connect: NavbarLinkProps[];
-  accessories: NavbarLinkProps[];
-  // followus: NavbarLinkProps[];
-};
 
 export interface ModalProps {
   isOpen: boolean;

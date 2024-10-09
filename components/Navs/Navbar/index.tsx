@@ -30,7 +30,7 @@ const Navbar = () => {
   }, [searchParams]);
 
   return (
-    // <header className="w-full ">
+    <header className="w-full ">
       <nav
         className={cn(
           "max-[500px]:py-2 shadow-lg sm:px-[5%] px-[4%] h-[12vh] flex shadow-slate-800/20 justify-between items-center transition-colors duration-500 max-w-[1440px] mx-auto",
@@ -51,7 +51,6 @@ const Navbar = () => {
           )}
         >
           <span className=" flex text-black text-lg lg:text-2xl font-bold">
-            {/* <IoPaw />  */}
             <Image
               src={EcoRide}
               alt={""}
@@ -99,8 +98,6 @@ const Navbar = () => {
             <CiLogin />
           </Button>
           <Button
-            // href="/auth/login"
-            // type="button"
             isLoading={false}
             onClick={() => {
               router.push("/auth/signUp");
@@ -109,7 +106,6 @@ const Navbar = () => {
           >
             Sign Up
             <SiGnuprivacyguard className=" text-white" />
-            {/* <CiLogout /> */}
           </Button>
         </div>
 
@@ -122,7 +118,7 @@ const Navbar = () => {
         </div>
         <MobileNav />
       </nav>
-    // </header>
+    </header>
   );
 };
 

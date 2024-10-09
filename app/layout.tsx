@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import StateContextProvider from "@/context/StateContext";
 import "./globals.css";
+import GotoTop from "@/components/Ui/GotoTop";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -31,7 +32,10 @@ export default function RootLayout({ children, types }: LayoutProps) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <StateContextProvider>{children}</StateContextProvider>
+        <StateContextProvider>
+          {children}
+          <GotoTop />
+        </StateContextProvider>
       </body>
     </html>
   );

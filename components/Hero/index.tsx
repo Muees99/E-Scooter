@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -11,7 +10,7 @@ function Hero() {
     <header className="w-full sm:h-screen h-full">
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
         <div className="flex w-full h-full items-center">
-          <div className="flex flex-col md:flex-row justify-between items-center w-full min-h-screen">
+          <div className="flex flex-col md:flex-row justify-between items-center w-full min-h-[550px]">
             {/* Left Section */}
             <div className="flex flex-col flex-1">
               <div className="">
@@ -73,6 +72,40 @@ function Hero() {
                   className="w-full max-w-[400px] sm:max-w-[600px] md:max-w-[700px] lg:max-w-[856px]"
                 />
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="w-full mt-2">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6  gap-4">
+            {/* Card 1 */}
+            <div className="p-4 bg-white shadow-md rounded-lg border border-[#F4F4F4] flex flex-col items-center">
+              <h3 className="font-semibold text-lg text-gray-700">105 lbs</h3>
+              <p className="text-sm text-gray-500">Net Weight</p>
+            </div>
+            {/* Card 2 */}
+            <div className="p-4 bg-white shadow-md rounded-lg border border-[#F4F4F4]  flex flex-col items-center">
+              <h3 className="font-semibold text-lg text-gray-700">26 mph</h3>
+              <p className="text-sm text-gray-500">Top Speed</p>
+            </div>
+            {/* Card 3 */}
+            <div className="p-4 bg-white shadow-md rounded-lg flex border border-[#F4F4F4]  flex-col items-center">
+              <h3 className="font-semibold text-lg text-gray-700">38 miles</h3>
+              <p className="text-sm text-gray-500">Max Range</p>
+            </div>
+            {/* Card 4 */}
+            <div className="p-4 bg-white shadow-md rounded-lg flex border border-[#F4F4F4]  flex-col items-center">
+              <h3 className="font-semibold text-lg text-gray-700">89 nm</h3>
+              <p className="text-sm text-gray-500">Max Torques</p>
+            </div>
+            {/* Card 5 */}
+            <div className="p-4 bg-white shadow-md rounded-lg flex border border-[#F4F4F4]  flex-col items-center">
+              <h3 className="font-semibold text-lg text-gray-700">22% slope</h3>
+              <p className="text-sm text-gray-500">Hill Climbing</p>
+            </div>
+            {/* Card 6 */}
+            <div className="p-4 bg-white shadow-md rounded-lg flex border border-[#F4F4F4]  flex-col items-center">
+              <h3 className="font-semibold text-lg text-gray-700">2x</h3>
+              <p className="text-sm text-gray-500">Hydralic Disc Brakes</p>
             </div>
           </div>
         </div>

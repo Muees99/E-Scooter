@@ -4,6 +4,8 @@ import { BiLoaderCircle } from 'react-icons/bi';
 import Navbar from '@/components/Navs/Navbar';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
+import ProInfo from '@/components/ProInfo';
+import Accessories from '@/components/accessories';
 
 
 export default function HomeLayout({
@@ -32,6 +34,8 @@ export default function HomeLayout({
     <>
     <Navbar/>
     <Hero/>
+    <ProInfo/>
+    <Accessories/>
     <Footer/>
     </>
   )

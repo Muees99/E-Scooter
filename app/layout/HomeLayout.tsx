@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import ProInfo from '@/components/ProInfo';
 import Accessories from '@/components/accessories';
+import Gallery from '@/components/gallery';
 
 
 export default function HomeLayout({
@@ -32,11 +33,12 @@ export default function HomeLayout({
 } 
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <ProInfo/>
-    <Accessories/>
-    <Footer/>
+      <Navbar />
+      <Hero />
+      <ProInfo />
+      <Accessories />
+      <Gallery/>
+      <Footer />
     </>
-  )
+  );
 }

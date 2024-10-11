@@ -24,7 +24,7 @@ function Accessories() {
           {/* Left Section */}
           <div className="flex flex-col  justify-center items-start text-[#42454A] max-w-[464px] md:w-1/3 p-4 mt-4 md:mt-0 md:ml-4">
             <h4 className="font-bold text-lg">Golf Bag Rock</h4>
-            {/* <p>Content for the right section goes here.</p> */}
+
             <div className="flex flex-col sm:flex-row mt-4 md:mt-8 w-fit md:w-auto">
               <Image src={ThickIcon} alt="ThickIcon" width={30} height={30} />
               <span className="ml-4 font-light">
@@ -76,7 +76,6 @@ function Accessories() {
             {/* Right Section */}
             <div className="flex flex-col  justify-center items-start text-[#42454A] max-w-[464px] md:w-1/3 p-4 mt-4 md:mt-0 md:ml-4">
               <h4 className="font-bold text-lg">Golf Bag Rock</h4>
-              {/* <p>Content for the right section goes here.</p> */}
               <div className="flex flex-col sm:flex-row mt-4 md:mt-8 w-fit md:w-auto">
                 <Image src={ThickIcon} alt="ThickIcon" width={30} height={30} />
                 <span className="ml-4 font-light">
@@ -109,7 +108,7 @@ function Accessories() {
             passHref
           >
             <span className=" font-semibold text-[#42454A] ">
-              More Accessories Coming Soon
+              More Accessories "Coming Soon"
             </span>
           </Link>
         </div>

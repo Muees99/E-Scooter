@@ -7,6 +7,7 @@ import Hero from '@/components/Hero';
 import ProInfo from '@/components/ProInfo';
 import Accessories from '@/components/accessories';
 import Gallery from '@/components/gallery';
+import Colrdisplay from '@/components/Colrdisplay';
 
 
 export default function HomeLayout({
@@ -38,6 +39,7 @@ export default function HomeLayout({
       <ProInfo />
       <Accessories />
       <Gallery/>
+      <Colrdisplay/>
       <Footer />
     </>
   );

@@ -24,9 +24,11 @@ function Colrdisplay() {
       {/* Full screen height */}
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%] flex flex-col justify-center items-center h-full">
         {/* Product Information Section */}
-        <div className="text-center text-[#42454A] mb-8">
-          <h3 className="font-bold text-2xl">Product Information</h3>
-          <p className="font-thin text-xl mt-2">
+        <div className="text-center text-[#42454A] mt-8 mb-8">
+          <h3 className="font-bold text-xl sm:text-3xl">
+            Product Information
+          </h3>
+          <p className="font-thin text-md sm:text-lg mt-2">
             Our Scooter has the following unique design and technology features:
           </p>
         </div>

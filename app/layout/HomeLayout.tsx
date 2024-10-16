@@ -5,9 +5,10 @@ import Navbar from '@/components/Navs/Navbar';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import ProInfo from '@/components/ProInfo';
-import Accessories from '@/components/accessories';
-import Gallery from '@/components/gallery';
+import Accessories from '@/components/Accessories';
+import Gallery from '@/components/Gallery';
 import Colrdisplay from '@/components/Colrdisplay';
+import Reviews from '@/components/Reviews';
 
 
 export default function HomeLayout({
@@ -40,6 +41,7 @@ export default function HomeLayout({
       <Accessories />
       <Gallery/>
       <Colrdisplay/>
+      <Reviews/>
       <Footer />
     </>
   );

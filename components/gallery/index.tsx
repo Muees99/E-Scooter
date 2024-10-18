@@ -11,8 +11,8 @@ function Gallery() {
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
         {/* Product Information Section */}
         <div className="text-center text-[#42454A] mt-10 mb-10">
-          <h3 className="font-bold text-2xl">Gallery</h3>
-          <p className="font-thin text-xl mt-2">
+          <h3 className="font-bold text-2xl sm:text-3xl">Gallery</h3>
+          <p className="font-thin text-md sm:text-lg mt-2">
             View gallery of our products and make yourself satisfied with our
             creation.
           </p>

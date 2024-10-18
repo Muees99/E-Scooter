@@ -30,7 +30,7 @@ function Accessories() {
           <h3 className="font-bold text-2xl sm:text-3xl">
             Multiple Accessories
           </h3>
-          <p className="font-thin text-xl mt-2">
+          <p className="font-thin text-md  sm:text-lg mt-2">
             There are multiple modes for the scooter for your multiple needs.
           </p>
         </div>

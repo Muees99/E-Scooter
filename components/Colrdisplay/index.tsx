@@ -19,34 +19,30 @@ function Colrdisplay() {
   ];
 
   return (
-    <div className="w-full h-screen">
-      {" "}
-      {/* Full screen height */}
+    <div className="w-full min-h-screen bg-white">
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%] flex flex-col justify-center items-center h-full">
         {/* Product Information Section */}
         <div className="text-center text-[#42454A] mt-8 mb-8">
-          <h3 className="font-bold text-xl sm:text-3xl">
-            Product Information
-          </h3>
+          <h3 className="font-bold text-xl sm:text-3xl">Colors</h3>
           <p className="font-thin text-md sm:text-lg mt-2">
-            Our Scooter has the following unique design and technology features:
+            Checkout our product colors.
           </p>
         </div>
 
         {/* Main Image (Changes when card is clicked) */}
-        <div className="flex justify-center items-center mb-8 h-[60%]">
+        <div className="flex justify-center items-center mb-8 w-full h-[300px] sm:h-[400px] lg:h-[500px]">
           <Image
             src={mainImage}
             alt="Main Image"
             layout="intrinsic"
-            width={600}
-            height={600}
-            className="object-contain"
+            width={500}
+            height={500}
+            className="object-contain max-h-full"
           />
         </div>
 
         {/* Four Cards Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 justify-center items-center w-full">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 justify-center items-center w-full">
           {cards.map((card, index) => (
             <div
               key={index}
@@ -70,5 +66,4 @@ function Colrdisplay() {
 }
 
 export default Colrdisplay;
-
 

@@ -134,7 +134,7 @@ const Footer = () => {
             <div className="w-full max-[550px]:flex-col flex justify-between lg:justify-start items-center max-[550px]:items-start max-[550px]:gap-y-5">
               <div className="w-full min-[550px]:max-w-[300px] sm:max-w-[380px] lg:hidden ">
                 <Image
-                  className="w-[50%]  -mt-8" // Apply negative margin-top for overlap
+                  className="w-[50%] -mt-8" // Apply negative margin-top for overlap
                   src={BikeFooter}
                   width={120}
                   height={120}

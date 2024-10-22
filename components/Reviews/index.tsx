@@ -183,7 +183,7 @@ function Reviews() {
         </div>
 
         {/* Newsletter section */}
-        <div className="flex flex-col justify-center items-center mt-8">
+        <div className="flex flex-col justify-center items-center  py-4">
           <div className="text-[#42454A] text-center">
             <h2 className="text-xl md:text-2xl sm:text-lg leading-[140%] font-semibold mt-4">
               Subscribe To Newsletter

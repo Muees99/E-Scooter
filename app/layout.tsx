@@ -26,6 +26,7 @@ export const metadata: Metadata = {
   description: "Let's Ride the Future",
 };
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function RootLayout({ children, types }: LayoutProps) {
   return (
     <html lang="en">

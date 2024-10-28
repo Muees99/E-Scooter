@@ -122,7 +122,7 @@ function Accessories() {
             passHref
           >
             <span className="font-semibold text-[#42454A] text-sm sm:text-base md:text-lg">
-              More Accessories "Coming Soon"
+              More Accessories &quot;Coming Soon&quot;
             </span>
           </Link>
         </div>

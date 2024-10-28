@@ -10,6 +10,7 @@ const GotoTop = () => {
 
   const handleTop = () => {
     if (!window) return;
+    // eslint-disable-next-line @typescript-eslint/no-unused-expressions
     window && window.scrollTo(0, 0);
   };
 

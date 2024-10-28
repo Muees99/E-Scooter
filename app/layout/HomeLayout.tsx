@@ -1,15 +1,14 @@
 "use client";
-import React, { useEffect, useState } from 'react'
-import { BiLoaderCircle } from 'react-icons/bi';
-import Navbar from '@/components/Navs/Navbar';
-import Footer from '@/components/Footer';
-import Hero from '@/components/Hero';
-import ProInfo from '@/components/ProInfo';
-import Accessories from '@/components/Accessories';
-import Gallery from '@/components/Gallery';
-import Colrdisplay from '@/components/Colrdisplay';
-import Reviews from '@/components/Reviews';
-
+import React, { useEffect, useState } from "react";
+import { BiLoaderCircle } from "react-icons/bi";
+import Navbar from "@/components/Navs/Navbar";
+import Footer from "@/components/Footer";
+import Hero from "@/components/Hero";
+import ProInfo from "@/components/ProInfo";
+import Accessories from "@/components/Accessories";
+import Gallery from "@/components/Gallery";
+import Colrdisplay from "@/components/Colrdisplay";
+import Reviews from "@/components/Reviews";
 
 export default function HomeLayout({
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -32,16 +31,20 @@ export default function HomeLayout({
         <BiLoaderCircle className="animate-spin  h-24 w-24 text-[#484646]" />
       </div>
     );
-} 
+  }
   return (
     <>
       <Navbar />
       <Hero />
-      <ProInfo />
+      <section id="products">
+        <ProInfo />
+      </section>
       <Accessories />
-      <Gallery/>
-      <Colrdisplay/>
-      <Reviews/>
+      <section id="gallery">
+        <Gallery />
+      </section>
+      <Colrdisplay />
+      <Reviews />
       <Footer />
     </>
   );

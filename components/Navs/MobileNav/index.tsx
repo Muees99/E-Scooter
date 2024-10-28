@@ -6,7 +6,7 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import React, { useEffect, useState } from "react";
 import { BsX } from "react-icons/bs";
-import { CiLogin, CiLogout } from "react-icons/ci";
+import { CiLogin} from "react-icons/ci";
 import Button from "@/components/Ui/Button";
 import { SiGnuprivacyguard } from "react-icons/si";
 

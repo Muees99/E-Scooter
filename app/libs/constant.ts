@@ -3,7 +3,7 @@ import { NavLinkProps, FooterLinkProps } from "../@types";
 export const NAVLINKS: NavLinkProps[] = [
   { id: 1, link: "home", label: "Home" },
   { id: 2, link: "products", label: "Products" },
-  { id: 3, link: "showroom", label: "Showroom" },
+  { id: 3, link: "gallery", label: "Gallery" },
   { id: 4, link: "about-us", label: "About us" },
 ];
 

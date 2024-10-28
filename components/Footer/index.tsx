@@ -222,7 +222,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="text-center text-[#FBFBFB] text-sm mt-4">
+          <div className=" text-center text-[#FBFBFB] text-sm mt-4">
             © Copyright Muees Alabi 2024. All Rights Reserved.
           </div>
         </div>

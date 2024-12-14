@@ -19,7 +19,7 @@ function Colrdisplay() {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-white">
+    <div className="w-full py-10 bg-white">
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%] flex flex-col justify-center items-center h-full">
         {/* Product Information Section */}
         <div className="text-center text-[#42454A] mt-8 mb-8">

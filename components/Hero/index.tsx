@@ -125,11 +125,10 @@ import ScooterHer from "@/public/assets/ScootHer.svg";
 
 function Hero() {
   return (
-    <header className="w-full min-h-screen overflow-hidden">
+    <header className="w-full py-10 overflow-hidden">
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
         <div className="flex w-full  items-center justify-center sm:justify-between">
           <div className="flex flex-col md:flex-row justify-between items-center w-full min-h-[550px]">
-            
             {/* Left Section */}
             <div className="flex flex-col flex-1 mb-4 sm:mb-0">
               <div className="max-w-full md:max-w-[50%] uppercase flex flex-col mt-4">

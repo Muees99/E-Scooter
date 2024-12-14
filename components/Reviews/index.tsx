@@ -144,7 +144,7 @@ function Reviews() {
   };
 
   return (
-    <div className="w-full min-h-screen bg-[#FAFAFA]">
+    <div className="w-full py-10 bg-[#FAFAFA]">
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%] mt-4">
         <div className="flex w-full h-full items-center justify-center">
           <h2 className="text-[#42454A] text-2xl md:text-4xl sm:text-2xl leading-[140%] font-semibold m-4 ">

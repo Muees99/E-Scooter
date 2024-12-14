@@ -47,7 +47,7 @@ const Navbar = () => {
           className={cn(
             "max-sm:w-[120px] max-[450px]:w-[100px]",
             scrollHeight > 200 ? "w-[120px] " : "w-fit",
-            "animate-pulse" // Apply the pulse animation
+            // "animate-pulse" // Apply the pulse animation
           )}
         >
           <span className=" flex text-black text-lg lg:text-2xl font-bold">

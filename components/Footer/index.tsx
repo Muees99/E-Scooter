@@ -126,6 +126,8 @@ import Image from "next/image";
 import BikeFooter from "@/public/assets/BikeFooter.svg";
 
 const Footer = () => {
+  const currentDate = new Date();
+  const currentYear = currentDate.getFullYear();
   return (
     <footer className="w-full h-full bg-[#42454A] pt-5 lg:pt-10">
       <div className="max-w-[1440px] mx-auto sm:px-[5%] px-[4%]">
@@ -223,7 +225,7 @@ const Footer = () => {
             </div>
           </div>
           <div className=" text-center text-[#FBFBFB] text-sm mt-4">
-            © Copyright Muees Alabi 2024. All Rights Reserved.
+            © Copyright Muees Alabi {currentYear}. All Rights Reserved.
           </div>
         </div>
       </div>

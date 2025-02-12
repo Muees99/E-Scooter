@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import ProInfo from "@/components/ProInfo";
 // import Accessories from "../../components/Accessories";
-import Gallery from "../../components/Gallery";
+// import Gallery from "../../components/Gallery";
 import Colrdisplay from "@/components/Colrdisplay";
 import Reviews from "@/components/Reviews";
 
@@ -40,9 +40,9 @@ export default function HomeLayout({
         <ProInfo />
       </section>
       {/* <Accessories /> */}
-      <section id="gallery">
+      {/* <section id="gallery">
         <Gallery />
-      </section>
+      </section> */}
       <Colrdisplay />
       <Reviews />
       <Footer />

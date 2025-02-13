@@ -1,10 +1,10 @@
 import React from "react";
 import Image from "next/image";
-import ThickIcon from "@/public/assets/ThickIcon.svg?url";
-import Grack1 from "@/public/assets/Grack1.svg?url";
-import Grack2 from "@/public/assets/Grack2.svg?url";
-import GreenRack from "@/public/assets/GreenRack.svg?url";
-import RedRack from "@/public/assets/RedRack.svg?url";
+import ThickIcon from "@/public/assets/ThickIcon.svg";
+import Grack1 from "@/public/assets/Grack1.svg";
+import Grack2 from "@/public/assets/Grack2.svg";
+import GreenRack from "@/public/assets/GreenRack.svg";
+import RedRack from "@/public/assets/RedRack.svg";
 import Link from "next/link";
 
 const golfBagFeatures = [

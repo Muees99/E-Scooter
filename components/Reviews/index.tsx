@@ -22,7 +22,7 @@ const reviewData: ReviewData[] = [
     rating: 5,
   },
   {
-    image: "/assets/Bob.svg",
+    image: "/assets/Henry.svg",
     header: "Bob Johnson",
     subheader: "CEO Universal",
     content:
